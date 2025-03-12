@@ -39,6 +39,9 @@ module "jenkins-agent" {
   )
 }
 
+###for nexus need to create keys ####
+
+
 resource "aws_key_pair" "tools" {
   key_name   = "tools"
   # you can paste the public key directly like this
