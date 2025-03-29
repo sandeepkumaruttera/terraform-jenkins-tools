@@ -13,3 +13,5 @@ dnf module disable nodejs -y
 dnf module enable nodejs:20 -y
 dnf install nodejs -y
 yum install zip -y
+
+iAM credentials rules also required here becuase it will configure with aws amazon console that why 
