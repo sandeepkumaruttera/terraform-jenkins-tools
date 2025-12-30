@@ -26,7 +26,7 @@ data "aws_ami" "nexus_ami_info" {
 
     filter {
         name   = "name"
-        values = ["SolveDevOps-Nexus-Server-Ubuntu24.04-20250222-*"]
+        values = ["SolveDevOps-Nexus-Server-Ubuntu24.04-20250529-*"]
     }
 
     filter {
